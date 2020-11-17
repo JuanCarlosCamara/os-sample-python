@@ -5,3 +5,8 @@ threads = int(os.environ.get('GUNICORN_THREADS', '1'))
 
 forwarded_allow_ips = '*'
 secure_scheme_headers = { 'X-Forwarded-Proto': 'https' }
+
+DB_USER = 'postgres'
+DB_PASS = 'postgres'
+DB_HOST = '172.30.202.27'
+DB_DATABASE = 'postgres'

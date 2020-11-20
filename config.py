@@ -8,6 +8,6 @@ secure_scheme_headers = { 'X-Forwarded-Proto': 'https' }
 
 DB_USER = 'postgres'
 DB_PASS = 'postgres'
-DB_HOST = '172.30.48.216'
+DB_HOST = '172.30.77.15'
 DB_DATABASE = 'postgres'
 DB_PORT = '5432'

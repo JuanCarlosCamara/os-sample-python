@@ -11,5 +11,5 @@ class Model:
             self.db.exec_statement("INSERT INTO users (id, name) values ({0}, '{0}')".format(i))
 
     def get_user_info(self, user_id):
-        user_info_df = self.db.read_query('SELECT * FROM users where id == {0}'.format(user_id))
+        user_info_df = self.db.read_query('SELECT * FROM users where id = {0}'.format(user_id))
         return user_info_df
